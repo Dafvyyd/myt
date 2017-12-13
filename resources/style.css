@@ -7,34 +7,40 @@ font-weight: bold;
 }
 
 /* Header */
-.header {
+header {
   display: flex;
   align-items: center;
   position: fixed;
   width: 100%;
   height: 100px;
-  background-color: white;
-  border-bottom: : 1px solid black;
   z-index: 5;
+  border-bottom: : 1px solid black;
+  background-color: white;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  flex-grow: 1px;
+  flex-grow: 1;
 }
 
 .logo img {
   width: 70px;
   height: 60px;
+  padding: 0 10px;
 }
 
 .logo span {
   color: MediumAquamarine;
 }
 
+header nav {
+  padding-right: 40px;
+}
+
 nav span {
   display: inline-block;
+  padding-left: 20px;
 }
 
 a {
