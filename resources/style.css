@@ -4,6 +4,15 @@ body {
 font-family: Verdana, sans-serif;
 font-size: 14px;
 font-weight: bold;
+
+}
+
+h1 {
+  font-family: Times, serif;
+}
+
+h2 {
+  font-family: Times, serif;
 }
 
 /* Header */
@@ -45,4 +54,35 @@ nav span {
 
 a {
   color: black;
+}
+
+/* Main Content */
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  border: 1px solid red;
+}
+
+/* Columns */
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
